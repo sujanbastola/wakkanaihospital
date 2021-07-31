@@ -1,0 +1,190 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-24 01:07+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: templates/hospital/admin_doctor_patient_card.html:64
+msgid "ADMIN"
+msgstr "管理者"
+
+#: templates/hospital/admin_doctor_patient_card.html:65
+#: templates/hospital/admin_doctor_patient_card.html:74
+#: templates/hospital/admin_doctor_patient_card.html:82
+msgid "View"
+msgstr "見る"
+
+#: templates/hospital/admin_doctor_patient_card.html:73
+msgid "DOCTOR"
+msgstr "医者"
+
+#: templates/hospital/admin_doctor_patient_card.html:81
+msgid "PATIENT"
+msgstr "患者"
+
+#: templates/hospital/adminclick.html:8
+msgid "Hello, Admin"
+msgstr "こんにちは！、管理者"
+
+#: templates/hospital/adminclick.html:9 templates/hospital/doctorclick.html:8
+#: templates/hospital/patientclick.html:7
+msgid "Welcome to Hospital Management System."
+msgstr "病院管理システムへようこそ"
+
+#: templates/hospital/adminclick.html:11 templates/hospital/doctorclick.html:10
+#: templates/hospital/patientclick.html:9
+msgid "You can access various features after Login/SignUp."
+msgstr "ログイン/サインアップ後にさまざまな機能にアクセスできます。"
+
+#: templates/hospital/adminclick.html:13
+msgid "SignUp"
+msgstr "サインアップ"
+
+#: templates/hospital/adminclick.html:14 templates/hospital/doctorclick.html:13
+#: templates/hospital/patientclick.html:12
+msgid "Login"
+msgstr "ログイン"
+
+#: templates/hospital/doctorclick.html:7
+msgid "Hello, Doctor"
+msgstr "こんにちは！、医者"
+
+#: templates/hospital/doctorclick.html:12
+msgid "Apply"
+msgstr "要求"
+
+#: templates/hospital/footeronly.html:31 templates/hospital/homebase.html:68
+msgid "About the hospital"
+msgstr "病院について"
+
+#: templates/hospital/footeronly.html:45 templates/hospital/homebase.html:82
+msgid "稚内駅前"
+msgstr "稚内駅前"
+
+#: templates/hospital/homebase.html:19
+msgid "wakkanai Hospital"
+msgstr "稚内病院"
+
+#: templates/hospital/homebase.html:27 templates/hospital/navbar.html:42
+msgid "Admin"
+msgstr "管理者"
+
+#: templates/hospital/homebase.html:28 templates/hospital/homebase.html:98
+#: templates/hospital/navbar.html:43
+msgid "Blog"
+msgstr "ブログ"
+
+#: templates/hospital/homebase.html:29 templates/hospital/navbar.html:44
+msgid "Doctor"
+msgstr "医者"
+
+#: templates/hospital/homebase.html:30 templates/hospital/navbar.html:45
+msgid "Patient"
+msgstr "患者"
+
+#: templates/hospital/homebase.html:31 templates/hospital/homebase.html:97
+#: templates/hospital/navbar.html:46
+msgid "About Us"
+msgstr "病院について"
+
+#: templates/hospital/homebase.html:32 templates/hospital/homebase.html:99
+#: templates/hospital/navbar.html:47
+msgid "Contact Us"
+msgstr "お問い合わせ"
+
+#: templates/hospital/index.html:61
+msgid "You’ll Love the Way We Care for You"
+msgstr "病院の気遣うことが絶対好きになる"
+
+#: templates/hospital/index.html:64
+msgid "Emergency ?"
+msgstr "緊急"
+
+#: templates/hospital/index.html:67
+msgid "Take Appointment"
+msgstr "予約入れる"
+
+#: templates/hospital/index.html:104
+msgid "Post by Dr.yosida"
+msgstr "Dr.yosida　から"
+
+#: templates/hospital/index.html:105
+msgid "What to do to keep yourself and others safe from COVID-19"
+msgstr "自分や他の人をCOVID-19から安全に保つために何をすべきか"
+
+#: templates/hospital/index.html:108 templates/hospital/index.html:133
+msgid "Continue reading"
+msgstr "続きを読む"
+
+#: templates/hospital/index.html:127
+msgid "Post by Dr.hataka"
+msgstr "Dr.hataka　から"
+
+#: templates/hospital/index.html:128
+msgid "The COVID-19 vaccine race – weekly update"
+msgstr "COVID-19ワクチンレース–毎週の二ユース "
+
+#: templates/hospital/index.html:150
+msgid "Our Gallery"
+msgstr "写真"
+
+#: templates/hospital/index.html:159
+msgid "ambulance service"
+msgstr "救急車"
+
+#: templates/hospital/index.html:160
+msgid "24 Hour service"
+msgstr "２４時間営業"
+
+#: templates/hospital/index.html:171
+msgid "Support"
+msgstr "サポート"
+
+#: templates/hospital/index.html:172
+msgid "Always with patient"
+msgstr "いつも患者と一緒"
+
+#: templates/hospital/index.html:184
+msgid "friendly environment"
+msgstr "優しく環境"
+
+#: templates/hospital/index.html:185
+msgid "care as your mother"
+msgstr "お母さんのように"
+
+#: templates/hospital/index.html:190
+msgid "view more photos"
+msgstr "もっと見る"
+
+#: templates/hospital/patientclick.html:6
+msgid "Hello, Patient"
+msgstr "こんにちは！、患者"
+
+#: templates/hospital/patientclick.html:11
+msgid "Register Your Account"
+msgstr "アカウント登録"
+
+#~ msgid ""
+#~ "Our hospital business is Wakkanai City Hospital Business Reform Plastic "
+#~ "in accordance with the Public Hospital Reform Guidelines set by the "
+#~ "government "
+#~ msgstr ""
+#~ "私たちの病院事業は稚内市立病院事業改革プラスチック政府が定めた公立病院改革"
+#~ "ガイドラインに準拠"
+
+#~ msgid "Search"
+#~ msgstr "検索"

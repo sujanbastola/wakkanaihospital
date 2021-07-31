@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>wakkanai hospital</title>
+
+
+</head>
+
+<body>
+
+  {% include "hospital/navbar.html" %}
+  <br><br>
+
+  <center>
+    <h3 class='alert alert-success'>Send Us Your Valuable Feedback !</h3>
+
+    <form method="POST">
+      <!-- Very Important csrf Token -->
+      {% csrf_token %}
+      <div class="form-group">
+        <p>
+        <h3>{{ form.as_p }}</h3>
+        </p>
+        <br>
+        <input type="submit" value="Send Message" class='btn btn-primary btn-lg'>
+      </div>
+    </form>
+  </center>
+
+<div class="container py-4 mt-4">
+    <h3 class="text-center">Catch our location</h3>
+	<div class="row">
+        <iframe class="well well-sm col-xs-13 col-sm-12" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10476.044262827443!2d141.6695834082934!3d45.413574453652416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x75fd046011816e3e!2sMunicipal%20Wakkanai%20Hospital!5e0!3m2!1sen!2sjp!4v1625488306873!5m2!1sen!2sjp" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+    </div>
+</div>
+ <hr>
+
+
+
+  {% include "hospital/footeronly.html" %}
+</body>
+
+
+</html>

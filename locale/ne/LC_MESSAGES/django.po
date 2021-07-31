@@ -1,0 +1,197 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-24 01:07+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: templates/hospital/admin_doctor_patient_card.html:64
+msgid "ADMIN"
+msgstr "प्रशासन"
+
+#: templates/hospital/admin_doctor_patient_card.html:65
+#: templates/hospital/admin_doctor_patient_card.html:74
+#: templates/hospital/admin_doctor_patient_card.html:82
+msgid "View"
+msgstr "भ्रमण गर्नुहोस्"
+
+#: templates/hospital/admin_doctor_patient_card.html:73
+msgid "DOCTOR"
+msgstr "डाक्टर"
+
+#: templates/hospital/admin_doctor_patient_card.html:81
+msgid "PATIENT"
+msgstr "बिराम"
+
+#: templates/hospital/adminclick.html:8
+msgid "Hello, Admin"
+msgstr " नमस्कार, प्रशासन"
+
+#: templates/hospital/adminclick.html:9 templates/hospital/doctorclick.html:8
+#: templates/hospital/patientclick.html:7
+msgid "Welcome to Hospital Management System."
+msgstr "अस्पताल व्यवस्थापन  तपाईंलाई स्वागत छ"
+
+#: templates/hospital/adminclick.html:11 templates/hospital/doctorclick.html:10
+#: templates/hospital/patientclick.html:9
+msgid "You can access various features after Login/SignUp."
+msgstr "तपाईं लगइन / साइनअप पछि विभिन्न सुविधाहरू पहुँच गर्न सक्नुहुनेछ।"
+
+#: templates/hospital/adminclick.html:13
+msgid "SignUp"
+msgstr "साइनअप"
+
+#: templates/hospital/adminclick.html:14 templates/hospital/doctorclick.html:13
+#: templates/hospital/patientclick.html:12
+msgid "Login"
+msgstr "लगइन"
+
+#: templates/hospital/doctorclick.html:7
+#, fuzzy
+#| msgid "Doctor"
+msgid "Hello, Doctor"
+msgstr "नमस्कार, डाक्टर "
+
+#: templates/hospital/doctorclick.html:12
+msgid "Apply"
+msgstr "निवेदन गर्नु"
+
+#: templates/hospital/footeronly.html:31 templates/hospital/homebase.html:68
+msgid "About the hospital"
+msgstr "अस्पतालको बारेमा"
+
+#: templates/hospital/footeronly.html:45 templates/hospital/homebase.html:82
+msgid "稚内駅前"
+msgstr "Wakkanai स्टेशन अगाडि"
+
+#: templates/hospital/homebase.html:19
+msgid "wakkanai Hospital"
+msgstr "वाक्कानाइ हस्पिटल"
+
+#: templates/hospital/homebase.html:27 templates/hospital/navbar.html:42
+msgid "Admin"
+msgstr "प्रशासन"
+
+#: templates/hospital/homebase.html:28 templates/hospital/homebase.html:98
+#: templates/hospital/navbar.html:43
+msgid "Blog"
+msgstr "ब्लग"
+
+#: templates/hospital/homebase.html:29 templates/hospital/navbar.html:44
+msgid "Doctor"
+msgstr "डाक्टर "
+
+#: templates/hospital/homebase.html:30 templates/hospital/navbar.html:45
+msgid "Patient"
+msgstr "बिरामी"
+
+#: templates/hospital/homebase.html:31 templates/hospital/homebase.html:97
+#: templates/hospital/navbar.html:46
+msgid "About Us"
+msgstr "हाम्रोबारे"
+
+#: templates/hospital/homebase.html:32 templates/hospital/homebase.html:99
+#: templates/hospital/navbar.html:47
+msgid "Contact Us"
+msgstr "सम्पर्क गर्नु"
+
+#: templates/hospital/index.html:61
+msgid "You’ll Love the Way We Care for You"
+msgstr "हामीले तपाईंको हेरचाह गर्ने तरीकालाई तपाईं प्रेम गर्नुहुन्छ"
+
+#: templates/hospital/index.html:64
+msgid "Emergency ?"
+msgstr "आकस्मिक ?"
+
+#: templates/hospital/index.html:67
+msgid "Take Appointment"
+msgstr "अपोइन्टमेन्ट लिनुहोस्"
+
+#: templates/hospital/index.html:104
+msgid "Post by Dr.yosida"
+msgstr " Dr.yosida वारा पोष्ट गरिएक"
+
+#: templates/hospital/index.html:105
+msgid "What to do to keep yourself and others safe from COVID-19"
+msgstr "COVID-19 बाट आफूलाई र अरूलाई सुरक्षित राख्न के गर्ने"
+
+#: templates/hospital/index.html:108 templates/hospital/index.html:133
+msgid "Continue reading"
+msgstr "पूरा पढ्नुहोस्"
+
+#: templates/hospital/index.html:127
+msgid "Post by Dr.hataka"
+msgstr "Dr.hataka द्वारा पोष्ट गरिएको"
+
+#: templates/hospital/index.html:128
+msgid "The COVID-19 vaccine race – weekly update"
+msgstr "COVID-19 खोप दौड - साप्ताहिक अपडेट"
+
+#: templates/hospital/index.html:150
+msgid "Our Gallery"
+msgstr "हाम्रो ग्यालरी"
+
+#: templates/hospital/index.html:159
+msgid "ambulance service"
+msgstr "एम्बुलेन्स सेवा"
+
+#: templates/hospital/index.html:160
+msgid "24 Hour service"
+msgstr " 24 घण्टा सेवा"
+
+#: templates/hospital/index.html:171
+msgid "Support"
+msgstr "सेवा"
+
+#: templates/hospital/index.html:172
+msgid "Always with patient"
+msgstr "सधै बिरामीको साथमा"
+
+#: templates/hospital/index.html:184
+msgid "friendly environment"
+msgstr "मैत्री वातावरण"
+
+#: templates/hospital/index.html:185
+msgid "care as your mother"
+msgstr "आफ्नो आमाको रूपमा हेरचाह"
+
+#: templates/hospital/index.html:190
+msgid "view more photos"
+msgstr "पूरा फोटो हेर्नुहोस्"
+
+#: templates/hospital/patientclick.html:6
+#, fuzzy
+#| msgid "Hello, Admin"
+msgid "Hello, Patient"
+msgstr " नमस्कार, प्रशासन"
+
+#: templates/hospital/patientclick.html:11
+msgid "Register Your Account"
+msgstr "तपाईंको खाता दर्ता गर्नुहोस्"
+
+#~ msgid "Have a good day"
+#~ msgstr "तपाईं दिन शुभ रहोस्"
+
+#~ msgid ""
+#~ "Our hospital business is Wakkanai City Hospital Business Reform Plastic "
+#~ "in accordance with the Public Hospital Reform Guidelines set by the "
+#~ "government "
+#~ msgstr ""
+#~ "हाम्रो अस्पताल व्यवसाय Wakkanai शहर अस्पताल व्यापार सुधार प्लास्टिक सरकार द्वारा "
+#~ "सार्वजनिक अस्पताल सुधार दिशानिर्देशहरु को अनुसार हो। "
+
+#~ msgid "Search"
+#~ msgstr "खोजीगर्नु"

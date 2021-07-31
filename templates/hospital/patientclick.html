@@ -1,0 +1,18 @@
+{% include 'hospital/navbar.html' %}
+{% load i18n %}
+<br>
+<br>
+<div class="jumbotron" style="">
+  <h1 class="display-4" style="text-align:center;">{% trans "Hello, Patient" %}</h1>
+  <p class="lead">{% trans "Welcome to Hospital Management System." %}</p>
+  <hr class="my-4">
+  <p>{% trans "You can access various features after Login/SignUp." %}</p>
+  <p class="lead">
+    <a class="btn btn-primary btn-lg" href="/patientsignup" role="button">{% trans "Register Your Account" %}</a>
+    <a class="btn btn-primary btn-lg" href="/patientlogin" role="button">{% trans "Login" %}</a>
+  </p>
+</div>
+{% include "hospital/footeronly.html" %}
+
+
+

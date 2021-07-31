@@ -1,0 +1,195 @@
+
+{% extends 'hospital/homebase.html' %}
+{% load i18n %}
+{% load static %}
+
+
+
+{% block content %}
+
+
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Raleway:600,900" rel="stylesheet">
+
+<link rel="stylesheet" href= "{% static 'css/gallery.css' %}" >
+  <style media="screen">
+    .jumbotron {
+      margin-top: 0px;
+      margin-bottom: 0px;
+      background-image: url('{% static "images/bg.jpg" %}');
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    .jumbotron h5,
+    h3 {
+      text-align: center;
+    }
+
+
+    .alert {
+      margin: 0px;
+    }
+
+
+
+    .glow {
+      font-size: 50px;
+      color: white;
+      text-align: center;
+      -webkit-animation: glow 1s ease-in-out infinite alternate;
+      -moz-animation: glow 1s ease-in-out infinite alternate;
+      animation: glow 1s ease-in-out infinite alternate;
+    }
+
+    @-webkit-keyframes glow {
+      from {
+        text-shadow: 0 0 10px #eeeeee, 0 0 20px #000000, 0 0 30px #000000, 0 0 40px #000000, 0 0 50px #9554b3, 0 0 60px #9554b3, 0 0 70px #9554b3;
+      }
+
+      to {
+        text-shadow: 0 0 20px #eeeeee, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+      }
+    }
+  </style>
+</head>
+<br>
+<br>
+
+<div class="jumbotron" style="margin-bottom: 0px;margin-top: 0px;">
+  <br>
+  <h5 class="display-3 glow">{% trans "You’ll Love the Way We Care for You" %}</h5>
+  <br><br><br><br><br>
+  <p>
+  <h3>{% trans "Emergency ?" %}
+
+  <p class="lead">
+    <a class="btn btn-primary btn-lg" href="/patientclick" role="button">{% trans "Take Appointment" %}</a>
+  </p></h3>
+  <br><br>
+</div>
+
+<br><br><br><br>
+
+{% include "hospital/admin_doctor_patient_card.html" %}
+<br><br><br>
+<!-- <h2 class="text-center mt-3">Hospital Related News</h2>-->
+<!-- <div class="container">-->
+<!--     <div class="col-md-13 mt-3">-->
+<!--      <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">-->
+<!--        <div class="col p-4 d-flex flex-column position-static">-->
+<!--          <strong class="d-inline-block mb-2 text-primary">Post by {{post.auther}}</strong>-->
+<!--          <h3 class="mb-0">{{post.title}}</h3>-->
+<!--          <div class="mb-1 text-muted">{{post.timeStamp}}</div>-->
+<!--          <p class="card-text mb-auto">{{post.content| truncatechars:500 }}</p>-->
+<!--          <a href="{{post.slug}}" class="btn btn-lg btn-block btn-primary">Continue reading</a>-->
+<!--        </div>-->
+<!--        <div class="col-auto d-none d-lg-block">-->
+<!--        <svg width="200" height="200"-->
+<!--  xmlns="http://www.w3.org/2000/svg">-->
+<!--  <image href="https://mdn.mozillademos.org/files/6457/mdn_logo_only_color.png" height="200" width="200"/>-->
+<!--</svg>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+
+<!-- </div>-->
+
+
+
+
+
+<p class="heading">{% trans "Our Gallery" %}</p>
+<div class="gallery-image">
+
+
+    <div class="img-box">
+        <a href="{% static "images/ambulance .jpeg" %}" target="_blank"> </a>
+      <img src="{% static "images/ambulance .jpeg" %}" alt="{{results.imgtitle}}" />
+      <div class="transparent-box">
+        <div class="caption">
+          <p>{% trans "ambulance service" %} </p>
+          <p class="opacity-low">{% trans "24 Hour service" %} </p>
+        </div>
+      </div>
+    </div>
+
+
+     <div class="img-box">
+        <a href="{% static "images/inject.jpg" %}" target="_blank"> </a>
+      <img src="{% static "images/inject.jpg" %}" alt="{{results.imgtitle}}" />
+      <div class="transparent-box">
+        <div class="caption">
+          <p>{% trans "Support" %} </p>
+          <p class="opacity-low">{% trans "Always with patient" %} </p>
+        </div>
+      </div>
+    </div>
+
+
+
+     <div class="img-box">
+        <a href="{% static "images/hold.jpg" %}" target="_blank"> </a>
+      <img src="{% static "images/hold.jpg" %}"" alt="{{results.imgtitle}}" />
+      <div class="transparent-box">
+        <div class="caption">
+          <p>{% trans "friendly environment" %} </p>
+          <p class="opacity-low">{% trans "care as your mother" %} </p>
+        </div>
+      </div>
+    </div>
+
+ <a href="/gallery" class="btn btn-lg btn-block btn-primary">{%trans "view more photos" %}</a>
+
+    </div>
+
+
+ <div class="container">
+     <div class="col-md-13 mt-3">
+      <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4 d-flex flex-column position-static">
+          <strong class="d-inline-block mb-2 text-primary">{% trans "Post by Dr.yosida" %}</strong>
+          <h3 class="mb-0">{% trans "What to do to keep yourself and others safe from COVID-19" %}</h3>
+          <p class="card-text mb-auto"> {%trans "Maintain at least a 1-metre distance between yourself
+              and others to reduce your risk of infection when they sneeze or speak" %}.</p>
+          <a href="/post1" class="btn btn-lg btn-block btn-primary">{% trans "Continue reading" %}</a>
+        </div>
+        <div class="col-auto d-none d-lg-block">
+        <svg width="200" height="200"
+  xmlns="http://www.w3.org/2000/svg">
+  <image href="https://mdn.mozillademos.org/files/6457/mdn_logo_only_color.png" height="200" width="200"/>
+</svg>
+        </div>
+      </div>
+    </div>
+
+ </div>
+
+
+
+ <div class="container">
+     <div class="col-md-13 mt-3">
+      <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4 d-flex flex-column position-static">
+          <strong class="d-inline-block mb-2 text-primary">{% trans "Post by Dr.hataka" %}</strong>
+          <h3 class="mb-0">{% trans "The COVID-19 vaccine race – weekly update" %} </h3>
+          <p class="card-text mb-auto">
+             {%trans "Scientists around the world are working faster than ever to develop and produce
+              vaccines that can stop the spread of COVID-19." %}</p>
+
+          <a href="/post2" class="btn btn-lg btn-block btn-primary">{% trans "Continue reading" %}</a>
+        </div>
+        <div class="col-auto d-none d-lg-block">
+        <svg width="200" height="200"
+  xmlns="http://www.w3.org/2000/svg">
+  <image href="https://mdn.mozillademos.org/files/6457/mdn_logo_only_color.png" height="200" width="200"/>
+</svg>
+        </div>
+      </div>
+    </div>
+
+ </div>
+
+
+
+{% endblock content %}

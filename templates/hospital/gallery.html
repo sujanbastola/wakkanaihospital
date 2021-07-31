@@ -1,0 +1,89 @@
+{% include "hospital/navbar.html" %}
+{% load static %}
+
+<head>
+      <link rel="stylesheet" href= "{% static 'css/gallery.css' %}" >
+</head>
+<p class="heading">Our Gallery</p>
+<div class="gallery-image">
+
+
+    <div class="img-box">
+        <a href="{% static "images/ambulance .jpeg" %}" target="_blank"> </a>
+      <img src="{% static "images/ambulance .jpeg" %}" alt="{{results.imgtitle}}" />
+      <div class="transparent-box">
+        <div class="caption">
+          <p>ambulance service </p>
+          <p class="opacity-low">24 Hour service </p>
+        </div>
+      </div>
+    </div>
+
+
+     <div class="img-box">
+        <a href="{% static "images/inject.jpg" %}" target="_blank"> </a>
+      <img src="{% static "images/inject.jpg" %}" alt="{{results.imgtitle}}" />
+      <div class="transparent-box">
+        <div class="caption">
+          <p>Support </p>
+          <p class="opacity-low">Always with patient </p>
+        </div>
+      </div>
+    </div>
+
+
+
+     <div class="img-box">
+        <a href="{% static "images/hold.jpg" %}" target="_blank"> </a>
+      <img src="{% static "images/hold.jpg" %}"" alt="{{results.imgtitle}}" />
+      <div class="transparent-box">
+        <div class="caption">
+          <p>{{results.imgtitle}}</p>
+          <p class="opacity-low">{{results.imgdesc}}</p>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="img-box">
+        <a href="{% static "images/ambulance .jpeg" %}" target="_blank"> </a>
+      <img src="{% static "images/ambulance .jpeg" %}" alt="{{results.imgtitle}}" />
+      <div class="transparent-box">
+        <div class="caption">
+          <p>ambulance service </p>
+          <p class="opacity-low">24 Hour service </p>
+        </div>
+      </div>
+    </div>
+
+
+     <div class="img-box">
+        <a href="{% static "images/inject.jpg" %}" target="_blank"> </a>
+      <img src="{% static "images/inject.jpg" %}" alt="{{results.imgtitle}}" />
+      <div class="transparent-box">
+        <div class="caption">
+          <p>Support </p>
+          <p class="opacity-low">Always with patient </p>
+        </div>
+      </div>
+    </div>
+
+
+
+      <div class="img-box">
+        <a href="{% static "images/hold.jpg" %}" target="_blank"> </a>
+      <img src="{% static "images/hold.jpg" %}"" alt="{{results.imgtitle}}" />
+      <div class="transparent-box">
+        <div class="caption">
+          <p>{{results.imgtitle}}</p>
+          <p class="opacity-low">{{results.imgdesc}}</p>
+        </div>
+      </div>
+    </div>
+
+
+
+    </div>
+
+{% include "hospital/footeronly.html" %}
